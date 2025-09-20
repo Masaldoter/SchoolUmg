@@ -126,3 +126,101 @@ export function eliminarCalificacion(id) {
     method: 'DELETE',
   }).then(handle);
 }
+
+// ===============================
+// PROFESORES
+// ===============================
+
+// Obtener todos los profesores
+export function getProfesores() {
+  return fetch(join('profesores'))
+    .then(res => {
+      if (!res.ok) throw new Error('Error en la solicitud: ' + res.status);
+      return res.json();
+    });
+}
+
+// Obtener un profesor
+export function getProfesor(usuario) {
+  return fetch(join(`profesor/${usuario}`))
+    .then(res => {
+      if (!res.ok) throw new Error('Error en la solicitud: ' + res.status);
+      return res.json();
+    });
+}
+
+// Insertar un nuevo profesor
+export function insertarProfesor(profesor) {
+  const body = {
+    usuario: profesor.usuario,
+    pass: profesor.pass,
+    nombre: profesor.nombre,
+    email: profesor.email
+  };
+
+  return fetch(join('profesor'), {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(body)
+  })
+  .then(async res => {
+    const text = await res.text();
+    if (!res.ok) throw new Error(`Error ${res.status}: ${text}`);
+    return text;
+  });
+}
+
+// Actualizar un profesor existente
+export function actualizarProfesor(usuario, profesor) {
+  const body = {
+    usuario: usuario, // Aseguramos que no cambie la clave primaria
+    pass: profesor.pass,
+    nombre: profesor.nombre,
+    email: profesor.email
+  };
+
+  return fetch(join(`profesor/${usuario}`), {
+    method: 'PUT',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(body)
+  })
+  .then(async res => {
+    const text = await res.text();
+    if (!res.ok) throw new Error(`Error ${res.status}: ${text}`);
+    return text;
+  });
+}
+
+// Eliminar un profesor
+export function eliminarProfesor(usuario) {
+  return fetch(join(`profesor/${usuario}`), {
+    method: 'DELETE'
+  })
+  .then(async res => {
+    const text = await res.text();
+    if (!res.ok) throw new Error(`Error ${res.status}: ${text}`);
+    return text;
+  });
+}
+
+// ===============================
+// GRAFICAS
+// ===============================
+
+// Obtener alumnos por asignatura
+export function getAlumnosPorAsignatura() {
+  return fetch(join('getAlumnosPorAsignatura'))
+    .then(res => {
+      if (!res.ok) throw new Error('Error en la solicitud: ' + res.status);
+      return res.json();
+    });
+}
+
+// Obtener distribución de calificaciones
+export function getDistribucionCalificaciones() {
+  return fetch(join('getDistribucionCalificaciones'))
+    .then(res => {
+      if (!res.ok) throw new Error('Error en la solicitud: ' + res.status);
+      return res.json();
+    });
+}

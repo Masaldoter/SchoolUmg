@@ -1,0 +1,33 @@
+﻿using Microsoft.AspNetCore.Mvc;
+using AccesoDatos.Operaciones;
+using AccesoDatos.Models;
+using System;
+using System.Collections.Generic;
+
+namespace WebApi.Controllers
+{
+    [Route("api")]
+    [ApiController]
+    public class GraficasController : ControllerBase
+    {
+        private readonly AlumnosPorAsignaturaDAO alumnosPorAsignaturaDAO = new AlumnosPorAsignaturaDAO();
+        private readonly DistribucionCalificacionesDAO distribucionDAO = new DistribucionCalificacionesDAO();
+
+        // GET api/getAlumnosPorAsignatura
+        [HttpGet("getAlumnosPorAsignatura")]
+        public IActionResult GetAlumnosPorAsignatura()
+        {
+            try
+            {
+                var result = alumnosPorAsignaturaDAO.ObtenerTodos();
+                if (result == null || result.Count == 0)
+                    return NotFound("No se encontraron datos de alumnos por asignatura.");
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, $"Error interno del servidor: {ex.Message}");
+            }
+        }
+    }
+}

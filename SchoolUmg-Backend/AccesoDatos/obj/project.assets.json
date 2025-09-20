@@ -4729,11 +4729,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "U:\\Universidad\\8 Semestre\\Desarrollo Web\\SchoolUmg\\SchoolUmg\\SchoolUmg\\AccesoDatos\\AccesoDatos.csproj",
+      "projectUniqueName": "U:\\Universidad\\8 Semestre\\Desarrollo Web\\SchoolUmg\\SchoolUmg\\SchoolUmg-Backend\\AccesoDatos\\AccesoDatos.csproj",
       "projectName": "AccesoDatos",
-      "projectPath": "U:\\Universidad\\8 Semestre\\Desarrollo Web\\SchoolUmg\\SchoolUmg\\SchoolUmg\\AccesoDatos\\AccesoDatos.csproj",
+      "projectPath": "U:\\Universidad\\8 Semestre\\Desarrollo Web\\SchoolUmg\\SchoolUmg\\SchoolUmg-Backend\\AccesoDatos\\AccesoDatos.csproj",
       "packagesPath": "C:\\Users\\aldoy\\.nuget\\packages\\",
-      "outputPath": "U:\\Universidad\\8 Semestre\\Desarrollo Web\\SchoolUmg\\SchoolUmg\\SchoolUmg\\AccesoDatos\\obj\\",
+      "outputPath": "U:\\Universidad\\8 Semestre\\Desarrollo Web\\SchoolUmg\\SchoolUmg\\SchoolUmg-Backend\\AccesoDatos\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
