@@ -1,0 +1,30 @@
+C:\Users\Huguito\source\repos\SchoolUmg\AccesoDatos\bin\Debug\net8.0\AccesoDatos.deps.json
+C:\Users\Huguito\source\repos\SchoolUmg\AccesoDatos\bin\Debug\net8.0\AccesoDatos.runtimeconfig.json
+C:\Users\Huguito\source\repos\SchoolUmg\AccesoDatos\bin\Debug\net8.0\AccesoDatos.dll
+C:\Users\Huguito\source\repos\SchoolUmg\AccesoDatos\bin\Debug\net8.0\AccesoDatos.pdb
+C:\Users\Huguito\source\repos\SchoolUmg\AccesoDatos\obj\Debug\net8.0\AccesoDatos.csproj.AssemblyReference.cache
+C:\Users\Huguito\source\repos\SchoolUmg\AccesoDatos\obj\Debug\net8.0\AccesoDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Huguito\source\repos\SchoolUmg\AccesoDatos\obj\Debug\net8.0\AccesoDatos.AssemblyInfoInputs.cache
+C:\Users\Huguito\source\repos\SchoolUmg\AccesoDatos\obj\Debug\net8.0\AccesoDatos.AssemblyInfo.cs
+C:\Users\Huguito\source\repos\SchoolUmg\AccesoDatos\obj\Debug\net8.0\AccesoDatos.csproj.CoreCompileInputs.cache
+C:\Users\Huguito\source\repos\SchoolUmg\AccesoDatos\obj\Debug\net8.0\AccesoDatos.dll
+C:\Users\Huguito\source\repos\SchoolUmg\AccesoDatos\obj\Debug\net8.0\refint\AccesoDatos.dll
+C:\Users\Huguito\source\repos\SchoolUmg\AccesoDatos\obj\Debug\net8.0\AccesoDatos.pdb
+C:\Users\Huguito\source\repos\SchoolUmg\AccesoDatos\obj\Debug\net8.0\AccesoDatos.genruntimeconfig.cache
+C:\Users\Huguito\source\repos\SchoolUmg\AccesoDatos\obj\Debug\net8.0\ref\AccesoDatos.dll
+C:\Users\Huguito\source\repos\SchoolUmg\AccesoDatos\obj\Debug\net8.0\AccesoDatos.sourcelink.json
+U:\Universidad\8 Semestre\Desarrollo Web\SchoolUmg\SchoolUmg\SchoolUmg\AccesoDatos\bin\Debug\net8.0\AccesoDatos.deps.json
+U:\Universidad\8 Semestre\Desarrollo Web\SchoolUmg\SchoolUmg\SchoolUmg\AccesoDatos\bin\Debug\net8.0\AccesoDatos.runtimeconfig.json
+U:\Universidad\8 Semestre\Desarrollo Web\SchoolUmg\SchoolUmg\SchoolUmg\AccesoDatos\bin\Debug\net8.0\AccesoDatos.dll
+U:\Universidad\8 Semestre\Desarrollo Web\SchoolUmg\SchoolUmg\SchoolUmg\AccesoDatos\bin\Debug\net8.0\AccesoDatos.pdb
+U:\Universidad\8 Semestre\Desarrollo Web\SchoolUmg\SchoolUmg\SchoolUmg\AccesoDatos\obj\Debug\net8.0\AccesoDatos.csproj.AssemblyReference.cache
+U:\Universidad\8 Semestre\Desarrollo Web\SchoolUmg\SchoolUmg\SchoolUmg\AccesoDatos\obj\Debug\net8.0\AccesoDatos.GeneratedMSBuildEditorConfig.editorconfig
+U:\Universidad\8 Semestre\Desarrollo Web\SchoolUmg\SchoolUmg\SchoolUmg\AccesoDatos\obj\Debug\net8.0\AccesoDatos.AssemblyInfoInputs.cache
+U:\Universidad\8 Semestre\Desarrollo Web\SchoolUmg\SchoolUmg\SchoolUmg\AccesoDatos\obj\Debug\net8.0\AccesoDatos.AssemblyInfo.cs
+U:\Universidad\8 Semestre\Desarrollo Web\SchoolUmg\SchoolUmg\SchoolUmg\AccesoDatos\obj\Debug\net8.0\AccesoDatos.csproj.CoreCompileInputs.cache
+U:\Universidad\8 Semestre\Desarrollo Web\SchoolUmg\SchoolUmg\SchoolUmg\AccesoDatos\obj\Debug\net8.0\AccesoDatos.sourcelink.json
+U:\Universidad\8 Semestre\Desarrollo Web\SchoolUmg\SchoolUmg\SchoolUmg\AccesoDatos\obj\Debug\net8.0\AccesoDatos.dll
+U:\Universidad\8 Semestre\Desarrollo Web\SchoolUmg\SchoolUmg\SchoolUmg\AccesoDatos\obj\Debug\net8.0\refint\AccesoDatos.dll
+U:\Universidad\8 Semestre\Desarrollo Web\SchoolUmg\SchoolUmg\SchoolUmg\AccesoDatos\obj\Debug\net8.0\AccesoDatos.pdb
+U:\Universidad\8 Semestre\Desarrollo Web\SchoolUmg\SchoolUmg\SchoolUmg\AccesoDatos\obj\Debug\net8.0\AccesoDatos.genruntimeconfig.cache
+U:\Universidad\8 Semestre\Desarrollo Web\SchoolUmg\SchoolUmg\SchoolUmg\AccesoDatos\obj\Debug\net8.0\ref\AccesoDatos.dll

@@ -1,0 +1,365 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "U:\\Universidad\\8 Semestre\\Desarrollo Web\\SchoolUmg\\SchoolUmg\\SchoolUmg\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{101AB281-4A83-46B4-88D0-853AA0EF8138}|AccesoDatos\\AccesoDatos.csproj|u:\\universidad\\8 semestre\\desarrollo web\\schoolumg\\schoolumg\\schoolumg\\accesodatos\\models\\calificacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{101AB281-4A83-46B4-88D0-853AA0EF8138}|AccesoDatos\\AccesoDatos.csproj|solutionrelative:accesodatos\\models\\calificacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{101AB281-4A83-46B4-88D0-853AA0EF8138}|AccesoDatos\\AccesoDatos.csproj|u:\\universidad\\8 semestre\\desarrollo web\\schoolumg\\schoolumg\\schoolumg\\accesodatos\\models\\calificacionprofesor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{101AB281-4A83-46B4-88D0-853AA0EF8138}|AccesoDatos\\AccesoDatos.csproj|solutionrelative:accesodatos\\models\\calificacionprofesor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{101AB281-4A83-46B4-88D0-853AA0EF8138}|AccesoDatos\\AccesoDatos.csproj|u:\\universidad\\8 semestre\\desarrollo web\\schoolumg\\schoolumg\\schoolumg\\accesodatos\\models\\profesor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{101AB281-4A83-46B4-88D0-853AA0EF8138}|AccesoDatos\\AccesoDatos.csproj|solutionrelative:accesodatos\\models\\profesor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{101AB281-4A83-46B4-88D0-853AA0EF8138}|AccesoDatos\\AccesoDatos.csproj|u:\\universidad\\8 semestre\\desarrollo web\\schoolumg\\schoolumg\\schoolumg\\accesodatos\\models\\matricula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{101AB281-4A83-46B4-88D0-853AA0EF8138}|AccesoDatos\\AccesoDatos.csproj|solutionrelative:accesodatos\\models\\matricula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{101AB281-4A83-46B4-88D0-853AA0EF8138}|AccesoDatos\\AccesoDatos.csproj|u:\\universidad\\8 semestre\\desarrollo web\\schoolumg\\schoolumg\\schoolumg\\accesodatos\\models\\asignatura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{101AB281-4A83-46B4-88D0-853AA0EF8138}|AccesoDatos\\AccesoDatos.csproj|solutionrelative:accesodatos\\models\\asignatura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{101AB281-4A83-46B4-88D0-853AA0EF8138}|AccesoDatos\\AccesoDatos.csproj|u:\\universidad\\8 semestre\\desarrollo web\\schoolumg\\schoolumg\\schoolumg\\accesodatos\\models\\alumnoasignatura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{101AB281-4A83-46B4-88D0-853AA0EF8138}|AccesoDatos\\AccesoDatos.csproj|solutionrelative:accesodatos\\models\\alumnoasignatura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{101AB281-4A83-46B4-88D0-853AA0EF8138}|AccesoDatos\\AccesoDatos.csproj|u:\\universidad\\8 semestre\\desarrollo web\\schoolumg\\schoolumg\\schoolumg\\accesodatos\\models\\alumno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{101AB281-4A83-46B4-88D0-853AA0EF8138}|AccesoDatos\\AccesoDatos.csproj|solutionrelative:accesodatos\\models\\alumno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{101AB281-4A83-46B4-88D0-853AA0EF8138}|AccesoDatos\\AccesoDatos.csproj|u:\\universidad\\8 semestre\\desarrollo web\\schoolumg\\schoolumg\\schoolumg\\accesodatos\\context\\proyectocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{101AB281-4A83-46B4-88D0-853AA0EF8138}|AccesoDatos\\AccesoDatos.csproj|solutionrelative:accesodatos\\context\\proyectocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E41E8D1-0B7A-4D3E-BA2E-B112F491FFC2}|WebApi\\WebApi.csproj|u:\\universidad\\8 semestre\\desarrollo web\\schoolumg\\schoolumg\\schoolumg\\webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4E41E8D1-0B7A-4D3E-BA2E-B112F491FFC2}|WebApi\\WebApi.csproj|solutionrelative:webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{101AB281-4A83-46B4-88D0-853AA0EF8138}|AccesoDatos\\AccesoDatos.csproj|u:\\universidad\\8 semestre\\desarrollo web\\schoolumg\\schoolumg\\schoolumg\\accesodatos\\operaciones\\calificaciondao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{101AB281-4A83-46B4-88D0-853AA0EF8138}|AccesoDatos\\AccesoDatos.csproj|solutionrelative:accesodatos\\operaciones\\calificaciondao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{101AB281-4A83-46B4-88D0-853AA0EF8138}|AccesoDatos\\AccesoDatos.csproj|u:\\universidad\\8 semestre\\desarrollo web\\schoolumg\\schoolumg\\schoolumg\\accesodatos\\models\\alumnoprofesor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{101AB281-4A83-46B4-88D0-853AA0EF8138}|AccesoDatos\\AccesoDatos.csproj|solutionrelative:accesodatos\\models\\alumnoprofesor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E41E8D1-0B7A-4D3E-BA2E-B112F491FFC2}|WebApi\\WebApi.csproj|u:\\universidad\\8 semestre\\desarrollo web\\schoolumg\\schoolumg\\schoolumg\\webapi\\controllers\\calificacioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E41E8D1-0B7A-4D3E-BA2E-B112F491FFC2}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\calificacioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E41E8D1-0B7A-4D3E-BA2E-B112F491FFC2}|WebApi\\WebApi.csproj|u:\\universidad\\8 semestre\\desarrollo web\\schoolumg\\schoolumg\\schoolumg\\webapi\\controllers\\profesorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E41E8D1-0B7A-4D3E-BA2E-B112F491FFC2}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\profesorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{101AB281-4A83-46B4-88D0-853AA0EF8138}|AccesoDatos\\AccesoDatos.csproj|u:\\universidad\\8 semestre\\desarrollo web\\schoolumg\\schoolumg\\schoolumg\\accesodatos\\operaciones\\alumnodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{101AB281-4A83-46B4-88D0-853AA0EF8138}|AccesoDatos\\AccesoDatos.csproj|solutionrelative:accesodatos\\operaciones\\alumnodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E41E8D1-0B7A-4D3E-BA2E-B112F491FFC2}|WebApi\\WebApi.csproj|u:\\universidad\\8 semestre\\desarrollo web\\schoolumg\\schoolumg\\schoolumg\\webapi\\controllers\\alumnocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E41E8D1-0B7A-4D3E-BA2E-B112F491FFC2}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\alumnocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E41E8D1-0B7A-4D3E-BA2E-B112F491FFC2}|WebApi\\WebApi.csproj|u:\\universidad\\8 semestre\\desarrollo web\\schoolumg\\schoolumg\\schoolumg\\webapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E41E8D1-0B7A-4D3E-BA2E-B112F491FFC2}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{101AB281-4A83-46B4-88D0-853AA0EF8138}|AccesoDatos\\AccesoDatos.csproj|u:\\universidad\\8 semestre\\desarrollo web\\schoolumg\\schoolumg\\schoolumg\\accesodatos\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{101AB281-4A83-46B4-88D0-853AA0EF8138}|AccesoDatos\\AccesoDatos.csproj|solutionrelative:accesodatos\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{101AB281-4A83-46B4-88D0-853AA0EF8138}|AccesoDatos\\AccesoDatos.csproj|u:\\universidad\\8 semestre\\desarrollo web\\schoolumg\\schoolumg\\schoolumg\\accesodatos\\operaciones\\profesordao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{101AB281-4A83-46B4-88D0-853AA0EF8138}|AccesoDatos\\AccesoDatos.csproj|solutionrelative:accesodatos\\operaciones\\profesordao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E41E8D1-0B7A-4D3E-BA2E-B112F491FFC2}|WebApi\\WebApi.csproj|u:\\universidad\\8 semestre\\desarrollo web\\schoolumg\\schoolumg\\schoolumg\\webapi\\webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4E41E8D1-0B7A-4D3E-BA2E-B112F491FFC2}|WebApi\\WebApi.csproj|solutionrelative:webapi\\webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E41E8D1-0B7A-4D3E-BA2E-B112F491FFC2}|WebApi\\WebApi.csproj|u:\\universidad\\8 semestre\\desarrollo web\\schoolumg\\schoolumg\\schoolumg\\webapi\\webapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{4E41E8D1-0B7A-4D3E-BA2E-B112F491FFC2}|WebApi\\WebApi.csproj|solutionrelative:webapi\\webapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{101AB281-4A83-46B4-88D0-853AA0EF8138}|AccesoDatos\\AccesoDatos.csproj|u:\\universidad\\8 semestre\\desarrollo web\\schoolumg\\schoolumg\\schoolumg\\accesodatos\\accesodatos.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{101AB281-4A83-46B4-88D0-853AA0EF8138}|AccesoDatos\\AccesoDatos.csproj|solutionrelative:accesodatos\\accesodatos.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ProfesorController.cs",
+              "DocumentMoniker": "U:\\Universidad\\8 Semestre\\Desarrollo Web\\SchoolUmg\\SchoolUmg\\SchoolUmg\\WebApi\\Controllers\\ProfesorController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\ProfesorController.cs",
+              "ToolTip": "U:\\Universidad\\8 Semestre\\Desarrollo Web\\SchoolUmg\\SchoolUmg\\SchoolUmg\\WebApi\\Controllers\\ProfesorController.cs",
+              "RelativeToolTip": "WebApi\\Controllers\\ProfesorController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-30T21:13:14.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Calificacion.cs",
+              "DocumentMoniker": "U:\\Universidad\\8 Semestre\\Desarrollo Web\\SchoolUmg\\SchoolUmg\\SchoolUmg\\AccesoDatos\\Models\\Calificacion.cs",
+              "RelativeDocumentMoniker": "AccesoDatos\\Models\\Calificacion.cs",
+              "ToolTip": "U:\\Universidad\\8 Semestre\\Desarrollo Web\\SchoolUmg\\SchoolUmg\\SchoolUmg\\AccesoDatos\\Models\\Calificacion.cs",
+              "RelativeToolTip": "AccesoDatos\\Models\\Calificacion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-31T03:42:20.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Alumno.cs",
+              "DocumentMoniker": "U:\\Universidad\\8 Semestre\\Desarrollo Web\\SchoolUmg\\SchoolUmg\\SchoolUmg\\AccesoDatos\\Models\\Alumno.cs",
+              "RelativeDocumentMoniker": "AccesoDatos\\Models\\Alumno.cs",
+              "ToolTip": "U:\\Universidad\\8 Semestre\\Desarrollo Web\\SchoolUmg\\SchoolUmg\\SchoolUmg\\AccesoDatos\\Models\\Alumno.cs",
+              "RelativeToolTip": "AccesoDatos\\Models\\Alumno.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-31T02:34:28.255Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProyectoContext.cs",
+              "DocumentMoniker": "U:\\Universidad\\8 Semestre\\Desarrollo Web\\SchoolUmg\\SchoolUmg\\SchoolUmg\\AccesoDatos\\Context\\ProyectoContext.cs",
+              "RelativeDocumentMoniker": "AccesoDatos\\Context\\ProyectoContext.cs",
+              "ToolTip": "U:\\Universidad\\8 Semestre\\Desarrollo Web\\SchoolUmg\\SchoolUmg\\SchoolUmg\\AccesoDatos\\Context\\ProyectoContext.cs",
+              "RelativeToolTip": "AccesoDatos\\Context\\ProyectoContext.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAqwB4AAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T23:46:00.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CalificacionProfesor.cs",
+              "DocumentMoniker": "U:\\Universidad\\8 Semestre\\Desarrollo Web\\SchoolUmg\\SchoolUmg\\SchoolUmg\\AccesoDatos\\Models\\CalificacionProfesor.cs",
+              "RelativeDocumentMoniker": "AccesoDatos\\Models\\CalificacionProfesor.cs",
+              "ToolTip": "U:\\Universidad\\8 Semestre\\Desarrollo Web\\SchoolUmg\\SchoolUmg\\SchoolUmg\\AccesoDatos\\Models\\CalificacionProfesor.cs",
+              "RelativeToolTip": "AccesoDatos\\Models\\CalificacionProfesor.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T02:46:28.839Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CalificacionController.cs",
+              "DocumentMoniker": "U:\\Universidad\\8 Semestre\\Desarrollo Web\\SchoolUmg\\SchoolUmg\\SchoolUmg\\WebApi\\Controllers\\CalificacionController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\CalificacionController.cs",
+              "ToolTip": "U:\\Universidad\\8 Semestre\\Desarrollo Web\\SchoolUmg\\SchoolUmg\\SchoolUmg\\WebApi\\Controllers\\CalificacionController.cs",
+              "RelativeToolTip": "WebApi\\Controllers\\CalificacionController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAiwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-31T03:26:45.596Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AlumnoProfesor.cs",
+              "DocumentMoniker": "U:\\Universidad\\8 Semestre\\Desarrollo Web\\SchoolUmg\\SchoolUmg\\SchoolUmg\\AccesoDatos\\Models\\AlumnoProfesor.cs",
+              "RelativeDocumentMoniker": "AccesoDatos\\Models\\AlumnoProfesor.cs",
+              "ToolTip": "U:\\Universidad\\8 Semestre\\Desarrollo Web\\SchoolUmg\\SchoolUmg\\SchoolUmg\\AccesoDatos\\Models\\AlumnoProfesor.cs",
+              "RelativeToolTip": "AccesoDatos\\Models\\AlumnoProfesor.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-31T02:25:23.087Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AlumnoDAO.cs",
+              "DocumentMoniker": "U:\\Universidad\\8 Semestre\\Desarrollo Web\\SchoolUmg\\SchoolUmg\\SchoolUmg\\AccesoDatos\\Operaciones\\AlumnoDAO.cs",
+              "RelativeDocumentMoniker": "AccesoDatos\\Operaciones\\AlumnoDAO.cs",
+              "ToolTip": "U:\\Universidad\\8 Semestre\\Desarrollo Web\\SchoolUmg\\SchoolUmg\\SchoolUmg\\AccesoDatos\\Operaciones\\AlumnoDAO.cs",
+              "RelativeToolTip": "AccesoDatos\\Operaciones\\AlumnoDAO.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAgwBQAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-30T20:51:18.369Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AlumnoController.cs",
+              "DocumentMoniker": "U:\\Universidad\\8 Semestre\\Desarrollo Web\\SchoolUmg\\SchoolUmg\\SchoolUmg\\WebApi\\Controllers\\AlumnoController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\AlumnoController.cs",
+              "ToolTip": "U:\\Universidad\\8 Semestre\\Desarrollo Web\\SchoolUmg\\SchoolUmg\\SchoolUmg\\WebApi\\Controllers\\AlumnoController.cs",
+              "RelativeToolTip": "WebApi\\Controllers\\AlumnoController.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAQwCoAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-31T02:37:45.726Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AlumnoAsignatura.cs",
+              "DocumentMoniker": "U:\\Universidad\\8 Semestre\\Desarrollo Web\\SchoolUmg\\SchoolUmg\\SchoolUmg\\AccesoDatos\\Models\\AlumnoAsignatura.cs",
+              "RelativeDocumentMoniker": "AccesoDatos\\Models\\AlumnoAsignatura.cs",
+              "ToolTip": "U:\\Universidad\\8 Semestre\\Desarrollo Web\\SchoolUmg\\SchoolUmg\\SchoolUmg\\AccesoDatos\\Models\\AlumnoAsignatura.cs",
+              "RelativeToolTip": "AccesoDatos\\Models\\AlumnoAsignatura.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-30T21:03:52.42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Asignatura.cs",
+              "DocumentMoniker": "U:\\Universidad\\8 Semestre\\Desarrollo Web\\SchoolUmg\\SchoolUmg\\SchoolUmg\\AccesoDatos\\Models\\Asignatura.cs",
+              "RelativeDocumentMoniker": "AccesoDatos\\Models\\Asignatura.cs",
+              "ToolTip": "U:\\Universidad\\8 Semestre\\Desarrollo Web\\SchoolUmg\\SchoolUmg\\SchoolUmg\\AccesoDatos\\Models\\Asignatura.cs",
+              "RelativeToolTip": "AccesoDatos\\Models\\Asignatura.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-31T02:42:17.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Matricula.cs",
+              "DocumentMoniker": "U:\\Universidad\\8 Semestre\\Desarrollo Web\\SchoolUmg\\SchoolUmg\\SchoolUmg\\AccesoDatos\\Models\\Matricula.cs",
+              "RelativeDocumentMoniker": "AccesoDatos\\Models\\Matricula.cs",
+              "ToolTip": "U:\\Universidad\\8 Semestre\\Desarrollo Web\\SchoolUmg\\SchoolUmg\\SchoolUmg\\AccesoDatos\\Models\\Matricula.cs",
+              "RelativeToolTip": "AccesoDatos\\Models\\Matricula.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T23:25:13.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Profesor.cs",
+              "DocumentMoniker": "U:\\Universidad\\8 Semestre\\Desarrollo Web\\SchoolUmg\\SchoolUmg\\SchoolUmg\\AccesoDatos\\Models\\Profesor.cs",
+              "RelativeDocumentMoniker": "AccesoDatos\\Models\\Profesor.cs",
+              "ToolTip": "U:\\Universidad\\8 Semestre\\Desarrollo Web\\SchoolUmg\\SchoolUmg\\SchoolUmg\\AccesoDatos\\Models\\Profesor.cs",
+              "RelativeToolTip": "AccesoDatos\\Models\\Profesor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-30T21:34:10.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "U:\\Universidad\\8 Semestre\\Desarrollo Web\\SchoolUmg\\SchoolUmg\\SchoolUmg\\WebApi\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "U:\\Universidad\\8 Semestre\\Desarrollo Web\\SchoolUmg\\SchoolUmg\\SchoolUmg\\WebApi\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "WebApi\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBsAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-30T21:42:37.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CalificacionDAO.cs",
+              "DocumentMoniker": "U:\\Universidad\\8 Semestre\\Desarrollo Web\\SchoolUmg\\SchoolUmg\\SchoolUmg\\AccesoDatos\\Operaciones\\CalificacionDAO.cs",
+              "RelativeDocumentMoniker": "AccesoDatos\\Operaciones\\CalificacionDAO.cs",
+              "ToolTip": "U:\\Universidad\\8 Semestre\\Desarrollo Web\\SchoolUmg\\SchoolUmg\\SchoolUmg\\AccesoDatos\\Operaciones\\CalificacionDAO.cs",
+              "RelativeToolTip": "AccesoDatos\\Operaciones\\CalificacionDAO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-31T03:27:11.66Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "U:\\Universidad\\8 Semestre\\Desarrollo Web\\SchoolUmg\\SchoolUmg\\SchoolUmg\\WebApi\\appsettings.json",
+              "RelativeDocumentMoniker": "WebApi\\appsettings.json",
+              "ToolTip": "U:\\Universidad\\8 Semestre\\Desarrollo Web\\SchoolUmg\\SchoolUmg\\SchoolUmg\\WebApi\\appsettings.json",
+              "RelativeToolTip": "WebApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-18T06:14:22.013Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ProfesorDAO.cs",
+              "DocumentMoniker": "U:\\Universidad\\8 Semestre\\Desarrollo Web\\SchoolUmg\\SchoolUmg\\SchoolUmg\\AccesoDatos\\Operaciones\\ProfesorDAO.cs",
+              "RelativeDocumentMoniker": "AccesoDatos\\Operaciones\\ProfesorDAO.cs",
+              "ToolTip": "U:\\Universidad\\8 Semestre\\Desarrollo Web\\SchoolUmg\\SchoolUmg\\SchoolUmg\\AccesoDatos\\Operaciones\\ProfesorDAO.cs",
+              "RelativeToolTip": "AccesoDatos\\Operaciones\\ProfesorDAO.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAqwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T23:52:30.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "U:\\Universidad\\8 Semestre\\Desarrollo Web\\SchoolUmg\\SchoolUmg\\SchoolUmg\\AccesoDatos\\Class1.cs",
+              "RelativeDocumentMoniker": "AccesoDatos\\Class1.cs",
+              "ToolTip": "U:\\Universidad\\8 Semestre\\Desarrollo Web\\SchoolUmg\\SchoolUmg\\SchoolUmg\\AccesoDatos\\Class1.cs",
+              "RelativeToolTip": "AccesoDatos\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-30T20:05:08.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "WebApi.csproj",
+              "DocumentMoniker": "U:\\Universidad\\8 Semestre\\Desarrollo Web\\SchoolUmg\\SchoolUmg\\SchoolUmg\\WebApi\\WebApi.csproj",
+              "RelativeDocumentMoniker": "WebApi\\WebApi.csproj",
+              "ToolTip": "U:\\Universidad\\8 Semestre\\Desarrollo Web\\SchoolUmg\\SchoolUmg\\SchoolUmg\\WebApi\\WebApi.csproj",
+              "RelativeToolTip": "WebApi\\WebApi.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-30T21:42:51.019Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AccesoDatos.csproj",
+              "DocumentMoniker": "U:\\Universidad\\8 Semestre\\Desarrollo Web\\SchoolUmg\\SchoolUmg\\SchoolUmg\\AccesoDatos\\AccesoDatos.csproj",
+              "RelativeDocumentMoniker": "AccesoDatos\\AccesoDatos.csproj",
+              "ToolTip": "U:\\Universidad\\8 Semestre\\Desarrollo Web\\SchoolUmg\\SchoolUmg\\SchoolUmg\\AccesoDatos\\AccesoDatos.csproj",
+              "RelativeToolTip": "AccesoDatos\\AccesoDatos.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-30T21:45:13.314Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "WebApi",
+              "DocumentMoniker": "U:\\Universidad\\8 Semestre\\Desarrollo Web\\SchoolUmg\\SchoolUmg\\SchoolUmg\\WebApi\\WebApi.csproj",
+              "RelativeDocumentMoniker": "WebApi\\WebApi.csproj",
+              "ToolTip": "U:\\Universidad\\8 Semestre\\Desarrollo Web\\SchoolUmg\\SchoolUmg\\SchoolUmg\\WebApi\\WebApi.csproj",
+              "RelativeToolTip": "WebApi\\WebApi.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-30T21:59:13.203Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
