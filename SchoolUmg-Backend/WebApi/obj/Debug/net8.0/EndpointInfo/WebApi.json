@@ -743,8 +743,8 @@
             "nullable": true
           },
           "nota": {
-            "type": "integer",
-            "format": "int32"
+            "type": "number",
+            "format": "float"
           },
           "porcentaje": {
             "type": "integer",

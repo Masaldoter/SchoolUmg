@@ -1,0 +1,29 @@
+﻿using AccesoDatos.Context;
+using AccesoDatos.Models;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace AccesoDatos.Operaciones
+{
+    public class DistribucionCalificacionesDAO
+    {
+        private ProyectoContext contexto = new ProyectoContext();
+
+        public List<DistribucionCalificaciones> ObtenerTodos()
+        {
+            return contexto.DistribucionCalificaciones.ToList();
+        }
+
+        public List<DistribucionCalificaciones> ObtenerPorProfesor(string usuarioProfesor)
+        {
+            // Solo selecciona las calificaciones de las asignaturas del profesor
+            return contexto.DistribucionCalificaciones
+                .Where(dc => contexto.Matriculas
+                    .Any(m => m.Id == dc.MatriculaId && m.Asignatura.ProfesorNavigation.Usuario == usuarioProfesor))
+                .ToList();
+        }
+    }
+}

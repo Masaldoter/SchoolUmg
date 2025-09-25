@@ -17,5 +17,13 @@ namespace AccesoDatos.Operaciones
             // Consulta directa a la vista
             return contexto.Set<AlumnosPorAsignatura>().ToList();
         }
+
+        public List<AlumnosPorAsignatura> ObtenerPorProfesor(string usuarioProfesor)
+        {
+            // Filtra las asignaturas por el usuario del profesor
+            return contexto.AlumnosPorAsignatura
+                .Where(a => contexto.Asignaturas.Any(asig => asig.Id == a.IdAsignatura && asig.ProfesorNavigation.Usuario == usuarioProfesor))
+                .ToList();
+        }
     }
 }

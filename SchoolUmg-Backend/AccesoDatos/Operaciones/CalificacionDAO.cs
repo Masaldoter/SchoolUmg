@@ -76,21 +76,19 @@ namespace AccesoDatos.Operaciones
                     .ThenInclude(m => m.Alumno)
                 .Include(c => c.Matricula)
                     .ThenInclude(m => m.Asignatura)
-                        .ThenInclude(a => a.ProfesorNavigation)
+                        .ThenInclude(a => a.ProfesorNavigation)  // usamos la navegación
                 .Where(c => c.Matricula.Asignatura.ProfesorNavigation.Usuario == profesorUsuario)
-                .Select(c => new CalificacionProfesor {
+                .Select(c => new CalificacionProfesor
+                {
                     Id = c.Id,
                     Descripcion = c.Descripcion,
-                    Nota = c.Nota, // byte a double, conversión implícita segura
+                    Nota = c.Nota,
                     MatriculaId = c.MatriculaId,
-                    Porcentaje = c.Porcentaje,
                     AlumnoDni = c.Matricula.Alumno.Dni,
                     AlumnoNombre = c.Matricula.Alumno.Nombre
-                })
-                .AsNoTracking()
-                .ToList();
+                });
 
-            return query;
+            return query.ToList();
         }
     }
 }

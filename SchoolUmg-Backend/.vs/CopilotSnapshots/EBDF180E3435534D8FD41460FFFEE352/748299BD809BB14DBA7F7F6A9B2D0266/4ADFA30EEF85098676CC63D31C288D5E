@@ -1,0 +1,41 @@
+﻿using AccesoDatos.Context;
+using AccesoDatos.Models;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace AccesoDatos.Operaciones
+{
+    public class DistribucionCalificacionesDAO
+    {
+        private ProyectoContext contexto = new ProyectoContext();
+
+        // Filtra la distribución solo por las asignaturas del profesor
+        public List<DistribucionCalificaciones> ObtenerPorProfesor(string usuarioProfesor)
+        {
+            // 1. Obtener los IDs de las asignaturas del profesor
+            var idsAsignaturas = contexto.Asignaturas
+                .Where(a => a.Profesor == usuarioProfesor)
+                .Select(a => a.Id)
+                .ToList();
+
+            // 2. Obtener los IDs de las matrículas de esas asignaturas
+            var idsMatriculas = contexto.Matriculas
+                .Where(m => idsAsignaturas.Contains(m.AsignaturaId))
+                .Select(m => m.Id)
+                .ToList();
+
+            // 3. Filtrar la vista por esas matrículas
+            return contexto.DistribucionCalificaciones
+                .Where(dc => idsMatriculas.Contains(dc.MatriculaId))
+                .ToList();
+        }
+
+        public List<DistribucionCalificaciones> ObtenerTodos()
+        {
+            return contexto.DistribucionCalificaciones.ToList();
+        }
+    }
+}

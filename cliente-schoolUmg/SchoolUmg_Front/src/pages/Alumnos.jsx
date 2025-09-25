@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useCallback } from "react";
 import * as API from "../services/data";
 import Swal from "sweetalert2";
 import * as XLSX from "xlsx";
@@ -42,10 +42,11 @@ export function Alumnos() {
   );
 
   // --- helpers para cargar datos ---
-  const fetchAlumnos = () => {
+  const fetchAlumnos = useCallback(() => {
     setLoading(true);
     API.alumnoProfesor(usuario)
       .then((data) => {
+        console.debug('fetchAlumnos -> recibidos', Array.isArray(data) ? data.length : typeof data, data);
         setAlumnos(data || []);
         setLoading(false);
       })
@@ -53,7 +54,7 @@ export function Alumnos() {
         console.error(err);
         setLoading(false);
       });
-  };
+  }, [usuario]);
 
   const fetchAsignaturas = () => {
     API.getAsignaturas()
@@ -255,31 +256,46 @@ export function Alumnos() {
               </tr>
             </thead>
             <tbody>
-              {currentAlumnos.map((a) => (
-                <tr key={a.id}>
-                  <td>{a.id}</td>
-                  <td>{a.dni}</td>
-                  <td>{a.nombre}</td>
-                  <td>{a.direccion}</td>
-                  <td>{a.edad}</td>
-                  <td>{a.email}</td>
-                  <td>{a.asignatura}</td>
-                  <td>
-                    <button
-                      className="btn btn-primary btn-sm me-2"
-                      onClick={() => handleEditar(a)}
-                    >
-                      Editar
-                    </button>
-                    <button
-                      className="btn btn-danger btn-sm"
-                      onClick={() => handleEliminar(a.id)}
-                    >
-                      Eliminar
-                    </button>
+              {currentAlumnos.length === 0 ? (
+                <tr>
+                  <td colSpan={columnasDisponibles.length + 1} className="text-center text-muted py-4">
+                    <div>
+                      <i className="fas fa-user-graduate fa-2x mb-2 d-block"></i>
+                      No hay alumnos registrados. Haz clic en "Agregar Alumno" para comenzar.
+                    </div>
                   </td>
                 </tr>
-              ))}
+              ) : (
+                currentAlumnos.map((a, index) => (
+                  <tr key={`${a.id ?? 'idx'}-${index}`}>
+                    <td>{a.id}</td>
+                    <td>{a.dni}</td>
+                    <td>{a.nombre}</td>
+                    <td>{a.direccion}</td>
+                    <td>{a.edad}</td>
+                    <td>{a.email}</td>
+                    <td>{
+                      a.asignatura && typeof a.asignatura === 'object'
+                        ? a.asignatura.nombre
+                        : a.asignatura ?? a.asignaturaId ?? ''
+                    }</td>
+                    <td>
+                      <button
+                        className="btn btn-primary btn-sm me-2"
+                        onClick={() => handleEditar(a)}
+                      >
+                        Editar
+                      </button>
+                      <button
+                        className="btn btn-danger btn-sm"
+                        onClick={() => handleEliminar(a.id)}
+                      >
+                        Eliminar
+                      </button>
+                    </td>
+                  </tr>
+                ))
+              )}
             </tbody>
           </table>
 

@@ -16,19 +16,13 @@ namespace WebApi.Controllers
         [HttpGet("getCalificacionId/{idMatricula}")]
         public ActionResult<List<Calificacion>> getCalificacionId(int idMatricula)
         {
-            try
-            {
-                var calificaciones = _calificacionDAO.SeleccionarPorMatricula(idMatricula);
-                if (calificaciones == null || calificaciones.Count == 0)
-                    return NotFound($"No se encontraron calificaciones para la matrícula {idMatricula}");
-                return Ok(calificaciones);
-            }
-            catch (Exception ex)
-            {
-                return StatusCode(500, ex.ToString()); // para ver stacktrace completo
-            }
-        }
+            var calificaciones = _calificacionDAO.SeleccionarPorMatricula(idMatricula);
 
+            if (calificaciones == null || calificaciones.Count == 0)
+                return NotFound($"No se encontraron calificaciones para la matrícula {idMatricula}");
+
+            return Ok(calificaciones);
+        }
 
         // Inserta una nueva calificación.
         [HttpPost("insertCalificacion")]

@@ -7,7 +7,7 @@ import { Inicio } from './pages/Inicio';
 import { Alumnos } from './pages/Alumnos';
 import { Calificaciones } from './pages/Calificaciones';
 import { Profesores } from './pages/Profesores';
-import { PrivateRoute } from './components/PrivateRoute';
+import { PrivateRoute } from './pages/components/PrivateRoute';
 
 export function App() {
   return (

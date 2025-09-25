@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useCallback } from "react";
 import * as API from "../services/data";
 import Swal from "sweetalert2";
 import * as XLSX from "xlsx";
@@ -42,7 +42,7 @@ export function Calificaciones() {
         columnasDisponibles.map((c) => c.key)
     );
 
-    const cargar = () => {
+    const cargar = useCallback(() => {
         setLoading(true);
         API.getCalificacionesProfesor(profesorUsuario)
             .then((data) => {
@@ -53,11 +53,11 @@ export function Calificaciones() {
                 setError(err?.message || String(err));
                 setLoading(false);
             });
-    };
+    }, [profesorUsuario]);
 
     useEffect(() => {
         if (profesorUsuario) cargar();
-    }, [profesorUsuario]);
+    }, [profesorUsuario, cargar]);
 
     // convierte a número cuando corresponde
     const handleChange = (e) => {
@@ -232,7 +232,6 @@ export function Calificaciones() {
     const totalPages = Math.ceil(calificaciones.length / itemsPerPage);
 
     if (loading) return <p>Cargando calificaciones...</p>;
-    if (error) return <p className="text-danger">Error: {error}</p>;
 
     return (
         <div className="container mt-3">
@@ -245,74 +244,87 @@ export function Calificaciones() {
                     <button
                         className="btn btn-secondary"
                         onClick={() => setIsColumnsModalOpen(true)}
+                        disabled={calificaciones.length === 0}
                     >
                         Exportar
                     </button>
                 </div>
             </div>
 
-            {calificaciones.length > 0 ? (
-                <>
-                    <table className="table table-striped table-bordered">
-                        <thead className="table-dark">
-                            <tr>
-                                <th>ID</th>
-                                <th>Descripción</th>
-                                <th>Nota</th>
-                                <th>Matrícula ID</th>
-                                <th>DNI Alumno</th>
-                                <th>Nombre Alumno</th>
-                                <th>Acciones</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            {currentCalificaciones.map((calif) => (
-                                <tr key={calif.id}>
-                                    <td>{calif.id}</td>
-                                    <td>{calif.descripcion}</td>
-                                    <td>{calif.nota}</td>
-                                    <td>{calif.matriculaId ?? calif.matriculadoId}</td>
-                                    <td>{calif.alumnoDni}</td>
-                                    <td>{calif.alumnoNombre}</td>
-                                    <td>
-                                        <button
-                                            className="btn btn-primary btn-sm me-2"
-                                            onClick={() => abrirEditar(calif)}
-                                        >
-                                            Editar
-                                        </button>
-                                        <button
-                                            className="btn btn-danger btn-sm"
-                                            onClick={() => handleEliminar(calif.id)}
-                                        >
-                                            Eliminar
-                                        </button>
-                                    </td>
-                                </tr>
-                            ))}
-                        </tbody>
-                    </table>
+            {error && (
+                <div className="alert alert-warning mb-3">
+                    <i className="fas fa-exclamation-triangle me-2"></i>
+                    {error}
+                </div>
+            )}
 
-                    <nav>
-                        <ul className="pagination justify-content-center">
-                            {Array.from({ length: totalPages }, (_, i) => (
-                                <li
-                                    key={i}
-                                    className={`page-item ${currentPage === i + 1 ? "active" : ""}`}
-                                >
+            <table className="table table-striped table-bordered">
+                <thead className="table-dark">
+                    <tr>
+                        <th>ID</th>
+                        <th>Descripción</th>
+                        <th>Nota</th>
+                        <th>Matrícula ID</th>
+                        <th>DNI Alumno</th>
+                        <th>Nombre Alumno</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {calificaciones.length > 0 ? (
+                        currentCalificaciones.map((calif) => (
+                            <tr key={calif.id}>
+                                <td>{calif.id}</td>
+                                <td>{calif.descripcion}</td>
+                                <td>{calif.nota}</td>
+                                <td>{calif.matriculaId ?? calif.matriculadoId}</td>
+                                <td>{calif.alumnoDni}</td>
+                                <td>{calif.alumnoNombre}</td>
+                                <td>
                                     <button
-                                        className="page-link"
-                                        onClick={() => setCurrentPage(i + 1)}
+                                        className="btn btn-primary btn-sm me-2"
+                                        onClick={() => abrirEditar(calif)}
                                     >
-                                        {i + 1}
+                                        Editar
                                     </button>
-                                </li>
-                            ))}
-                        </ul>
-                    </nav>
-                </>
-            ) : (
-                <p className="text-center text-muted">No hay calificaciones.</p>
+                                    <button
+                                        className="btn btn-danger btn-sm"
+                                        onClick={() => handleEliminar(calif.id)}
+                                    >
+                                        Eliminar
+                                    </button>
+                                </td>
+                            </tr>
+                        ))
+                    ) : (
+                        <tr>
+                            <td colSpan="7" className="text-center text-muted py-4">
+                                <i className="fas fa-clipboard-list fa-2x mb-2 d-block"></i>
+                                No hay calificaciones registradas. Haz clic en "Agregar calificación" para comenzar.
+                            </td>
+                        </tr>
+                    )}
+                </tbody>
+            </table>
+
+            {calificaciones.length > 0 && (
+                <nav>
+                    <ul className="pagination justify-content-center">
+                        {Array.from({ length: totalPages }, (_, i) => (
+                            <li
+                                key={i}
+                                className={`page-item ${currentPage === i + 1 ? "active" : ""}`}
+                            >
+                                <button
+                                    className="page-link"
+                                    onClick={() => setCurrentPage(i + 1)}
+                                >
+                                    {i + 1}
+                                </button>
+                            </li>
+                        ))}
+                    </ul>
+                </nav>
             )}
 
             {/* Modal Nueva/Editar Calificación */}
